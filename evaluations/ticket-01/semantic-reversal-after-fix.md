@@ -33,7 +33,7 @@ The manager borrowed my laptop while hers was being repaired. 我借貸方向容
 
 所以這題以經理為主詞，用 **lent me her laptop**；送修的是「我的筆電」，用 **mine**。你寫的 **while … was being repaired** 結構正確，可以保留。
 
-換個情境，請用 **borrowed** 寫一句：「我向同事借了他的手機。」  
+換個情境，請用 **borrowed** 寫一句：「我向同事借了他的手機。」
 「同事」可以用 **coworker**。
 
 ## Learner 3
