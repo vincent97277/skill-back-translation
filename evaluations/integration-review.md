@@ -43,3 +43,7 @@ Residual limitations: evaluations use finite model fixtures, several sharing act
 The declared implementation and representative behavioral verification are complete; automatic discovery, clean-host compatibility, human learning outcomes and long-term retention are not claimed.
 
 Standards: 0 findings, no outstanding issue. Spec: 0 findings, no outstanding issue.
+
+## Worktree cleanup
+
+The materials and feedback managed worktrees are confirmed archived. The app archive tool accepted two requests for the core worktree with a queued result, but subsequent artifact and Git checks still show it active. That worktree is clean, its final ticket branch is fully merged, and all required deliverables are committed in the primary integration checkout. It is retained rather than removed through a destructive fallback; app-managed archival remains incomplete for this one checkout. No cause or successful archival is inferred from the queued result.
