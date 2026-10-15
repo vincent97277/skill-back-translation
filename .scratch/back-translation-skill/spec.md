@@ -1,6 +1,6 @@
 # 回譯英文練習 skill：實作規格
 
-Status: ready-for-agent
+Status: closed
 Labels: ready-for-agent
 Version: 1.0
 Date: 2026-10-15
@@ -186,11 +186,12 @@ Date: 2026-10-15
 
 ### 發布與接續
 
-本規格發布於既有本機 Markdown 追蹤器，狀態為 `ready-for-agent`；不需要再次 triage。測試邊界已由使用者明確接受，不再等待該項確認。
+本規格最初發布於既有本機 Markdown 追蹤器，狀態為 `ready-for-agent`。測試邊界已由使用者明確接受。2026-10-15，四張實作票完成並合併至 `integration/back-translation-skill`，整合審查完成後關閉本規格。
 
-若後續判定需要多回合實作，從這份規格拆垂直切片實作票，宣告真正的阻擋關係；不要重用已結案的 wayfinder 決策票。若可在一次回合內完成，直接按本規格進入實作。實作時採用 skill-creator 與 writing-for-agents 的實際指引，將結構驗證與教學行為評估都納入完成條件。
+實作拆分見 [票務索引](ticket-breakdown.md)，驗收與兩軸審查見 [整合紀錄](../../evaluations/integration-review.md)。本規格保留為交付與後續維護的需求基準；先前 wayfinder 決策票與本次實作票仍為不同紀錄。
 
 ## Comments
 
 - 2026-10-15：使用者確認以「載入完整 skill 後，使用者實際看到的對話」為測試邊界；使用新材料檢查等待、提示、正確替代表達及中文提示失真，格式另檢查。
 - 2026-10-15：依 to-spec 將既有設計、決策與驗收要求整合為本規格，發布為 ready-for-agent。本次未開始實作、建立實作票或執行 skill 行為測試。
+- 2026-10-15：依 implement-spec 完成四張實作票，交付可載入的單次回譯 skill、實際跨輪評估與載入說明。以 `main` 為基準的整合審查在 `9cc6056` 完成，Standards／Spec 各 0 待修項。結構、差異與連結檢查通過；安裝、發現介面與人類學習成效未宣稱已驗證。父規格結案。

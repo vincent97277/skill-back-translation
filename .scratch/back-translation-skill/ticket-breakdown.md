@@ -1,6 +1,6 @@
 # 回譯練習 skill：實作票拆分提案
 
-Status: approved-published
+Status: closed
 Date: 2026-10-15
 
 依據：[實作規格 v1.0](spec.md)。本文件是拆分索引；使用者以 implement-spec 授權依四張拆分執行，四份獨立票已正式發布，沒有修改來源規格或先前已結案的 wayfinder 決策票。
@@ -40,3 +40,7 @@ flowchart TD
 ## 拆分確認與發布
 
 2026-10-15：使用者呼叫 implement-spec，授權依此四張拆分執行；已發布為本機追蹤器的一票一檔，初始狀態 ready-for-agent。各票的執行與結案狀態記錄於正式票，現無待確認的拆分或依賴問題。來源規格與 wayfinder 決策票未因發布而修改。
+
+## 完成紀錄
+
+四張實作票均已完成並合併至 `integration/back-translation-skill`，父規格已結案。實際驗收與雙軸審查見 [整合紀錄](../../evaluations/integration-review.md)。

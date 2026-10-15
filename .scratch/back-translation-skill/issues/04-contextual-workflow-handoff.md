@@ -4,7 +4,7 @@
 
 **Blocked by:** 02 — 自行英翻中與材料修復的完整練習；03 — 提示自修與可調整的教學節奏。第一張為間接依賴，不重列。
 
-**Status:** done
+**Status:** closed
 
 ## Acceptance criteria
 

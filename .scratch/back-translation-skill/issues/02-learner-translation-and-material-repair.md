@@ -4,7 +4,7 @@
 
 **Blocked by:** 01 — AI 提供中文的完整單次回譯練習。
 
-**Status:** completed
+**Status:** closed
 
 ## Acceptance criteria
 

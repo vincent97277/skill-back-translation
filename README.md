@@ -21,6 +21,7 @@
 結構檢查和教學行為分開驗證：結構由 skill-creator 的 `quick_validate.py` 檢查；行為以載入完整 skill 後的實際跨輪回覆為邊界，學習者測試答案逐輪提供，判斷語意、公平性、等待及續接，不比對固定標題、指令文字或原文相似率。
 
 - [整合驗收與限制](evaluations/ticket-04/evidence.md)：不同交接進度、完成後返回、整體覆蓋索引與最終檢查。
+- [整合分支雙軸審查](evaluations/integration-review.md)：Standards 與 Spec 均無待修項，四張實作票已完成；審查基準與限制分別記錄。
 - [核心練習](evaluations/ticket-01/evidence.md)、[自翻與材料修復](evaluations/ticket-02/evidence.md)、[提示與深度調整](evaluations/ticket-03/evidence.md)：前置票的實際對話、觀察到的失敗及後續修正。
 
 這些是有限的模型對話與明確標示的測試作答，沒有以人類學習者試驗；不能據此保證長期記憶、口說能力、熟練度或學習成效。對話交接是在原對話中續接，不是跨 skill 程式 API 或跨聊天自動傳輸。
