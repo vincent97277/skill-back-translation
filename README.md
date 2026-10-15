@@ -2,6 +2,10 @@
 
 首版成品是 [back-translation-practice](skills/back-translation-practice/SKILL.md)：以英文原文、繁體中文提示與學習者實際英文回譯，練習主動表達，再做一次新情境運用。支援自行英翻中或 AI 提供中文、材料修復、提示自修、詳略調整，以及在同一閱讀對話中依已有進度續接。預設一至三句、約十分鐘；可隨時求助、跳過或結束。
 
+## 下載版本
+
+[GitHub Release v0.1.0](https://github.com/vincent97277/skill-back-translation/releases/tag/v0.1.0) 提供 `back-translation-practice-v0.1.0.zip` 與 `SHA256SUMS`。解壓縮後的 `back-translation-practice/` 是完整 skill，可直接載入其中的 `SKILL.md`，或依下方方式選擇性安裝；GitHub 自動產生的 Source code 壓縮檔則包含整個專案。
+
 ## 直接試用
 
 在能讀取本專案檔案的 Codex 對話中，請求：
@@ -24,7 +28,7 @@
 - [整合分支雙軸審查](evaluations/integration-review.md)：Standards 與 Spec 均無待修項，四張實作票已完成；審查基準與限制分別記錄。
 - [核心練習](evaluations/ticket-01/evidence.md)、[自翻與材料修復](evaluations/ticket-02/evidence.md)、[提示與深度調整](evaluations/ticket-03/evidence.md)：前置票的實際對話、觀察到的失敗及後續修正。
 
-這些是有限的模型對話與明確標示的測試作答，沒有以人類學習者試驗；不能據此保證長期記憶、口說能力、熟練度或學習成效。對話交接是在原對話中續接，不是跨 skill 程式 API 或跨聊天自動傳輸。
+上述評估紀錄是有限的模型對話與明確標示的測試作答。使用者於 2026-10-15 另回報已實際測試，未發現明顯問題；此回報沒有附上逐輪紀錄，也不是人類學習成效試驗。不能據此保證長期記憶、口說能力、熟練度或學習成效。對話交接是在原對話中續接，不是跨 skill 程式 API 或跨聊天自動傳輸。
 
 ## 設計來源
 
